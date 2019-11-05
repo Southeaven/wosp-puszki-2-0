@@ -1,0 +1,54 @@
+$main-color:rgb(255, 255, 255);
+$second-size:30px;
+
+body{
+    background-image: url('../image.png');
+
+    
+    .first{
+        
+        color: $main-color;
+        
+        margin-top:15%;
+        font-size: 50px;
+        height: 20vh;
+        border:1px white solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            p{
+                margin:0;
+            }
+    }
+    .second{
+        
+        color: $main-color;
+        
+        
+        margin-bottom:10%;
+        font-size: 30px;
+        height: 10vh;
+        border:1px white solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            p{
+                margin:0;
+            }
+    }
+    .third{
+        float:left;
+        width: 33%;
+        color:$main-color;
+        font-size: $second-size;
+        border:1px white solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            p{
+                margin:0;
+            }
+    
+    }
+    
+}
